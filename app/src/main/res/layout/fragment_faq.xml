@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FaqFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:shadowColor="#0091ea"
+        android:shadowRadius="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What locations does Wheels-On-Meals service at the moment?\n\nCurrently we are servicing in pune,PCMC and Mumbai as well.\nSoon,you will see us expand our service coverage over other cities in India and abroad,as well."
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:background="@drawable/my_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:shadowColor="#0091ea"
+        android:shadowRadius="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can I add from two or more restaurants at the same time?\n\nYes!of course!\nHowever each restaurnt order will be treated as a different order. So the delivery charges may be applicable for each order"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/my_border"
+        android:textColor="#000000"
+        android:textStyle="italic" />
+        <TextView
+            android:shadowColor="#0091ea"
+            android:shadowRadius="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Can I get discounts for big orders?\n\nSorry,as a practice we donot give discountsas we work on slim margins,already.\nBut, we could check with restaurant and IF they offer any special discount,we would be happy to pass it to you!"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:background="@drawable/my_border"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0091ea"
+            android:shadowRadius="2"
+            android:text="Do you also deliver spoons and plates etc.?\n\nNot usually.But if the order is large and you give us advance notice,we could arrange it for you"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/my_border"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0091ea"
+            android:shadowRadius="2"
+            android:text="How to contact us?\n\nYou can reach us by-\nEmail:pavanrina88@gmail.com\nMobile:9505615052"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/my_border"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://drive.google.com/file/d/1R79flIT1k7lBEtZGaklKO88ufij4sCjc/view?usp=drivesdk"
+            android:background="@drawable/my_border"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"/>
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

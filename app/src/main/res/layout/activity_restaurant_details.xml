@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RestaurantDetails">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_resdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/txt_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose from the menu items listed below:"
+        android:layout_below="@+id/toolbar_resdetails"
+        android:textSize="20sp"
+        android:padding="10dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_menu"
+        android:padding="1dp"
+        android:layout_above="@+id/bt_proceedCart"
+        android:layout_margin="5dp">
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_proceedCart"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="2dp"
+        android:text="Procced to cart"
+        android:textSize="20sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progressLayout">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/progressBar"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

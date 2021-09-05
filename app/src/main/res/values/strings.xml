@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodOnWheels</string>
+    <string name="shared_preferences">meals</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

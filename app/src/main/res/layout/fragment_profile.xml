@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.profileFragment"
+    android:background="@drawable/wall">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/user"
+        android:background="#ffffff"
+        android:id="@+id/img_user"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_user"
+        android:layout_below="@+id/img_user"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_mobile"
+        android:layout_below="@+id/txt_user"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="9999999999"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_emailId"
+        android:layout_below="@+id/txt_mobile"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_address"
+        android:layout_below="@+id/txt_emailId"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="10dp" />
+
+
+
+</RelativeLayout>
